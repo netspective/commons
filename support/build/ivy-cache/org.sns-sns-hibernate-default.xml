@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="org.sns"
+		module="sns-hibernate"
+		conf="default"
+		date="20050506180557"/>
+	<dependencies>
+		<module organisation="org.sns" name="sns-graphviz" resolver="projects">
+			<revision name="1.0.0" status="release" pubdate="20050505111235" resolver="projects" downloaded="false" searched="true" conf="default">
+				<caller organisation="org.sns" name="sns-hibernate" conf="default" rev="1.+"/>
+				<artifacts>
+					<artifact name="sns-graphviz" type="jar" ext="jar" status="no" size="7800"/>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache" name="commons-logging" resolver="ibiblio">
+			<revision name="1.1-dev" status="release" pubdate="20050506180558" resolver="ibiblio" downloaded="false" searched="true" conf="default">
+				<caller organisation="org.sns" name="sns-hibernate" conf="default" rev="1.+"/>
+				<artifacts>
+					<artifact name="commons-logging" type="jar" ext="jar" status="no" size="22487"/>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.hibernate" name="hibernate" resolver="ibiblio">
+			<revision name="3.0.1" status="release" pubdate="20050506180557" resolver="ibiblio" downloaded="false" searched="true" conf="default">
+				<caller organisation="org.sns" name="sns-hibernate" conf="default" rev="3.+"/>
+				<artifacts>
+					<artifact name="hibernate" type="jar" ext="jar" status="no" size="1623987"/>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>

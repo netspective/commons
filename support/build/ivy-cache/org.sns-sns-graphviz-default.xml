@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="org.sns"
+		module="sns-graphviz"
+		conf="default"
+		date="20050505111235"/>
+	<dependencies>
+	</dependencies>
+</ivy-report>

@@ -1,0 +1,10 @@
+<ivy-module version="1.0">
+	<info organisation="org.apache"
+		module="commons-logging"
+		revision="1.1-dev"
+		status="release"
+		publication="20050506180558"
+		resolver="ibiblio"
+		default="true"
+	/>
+</ivy-module>

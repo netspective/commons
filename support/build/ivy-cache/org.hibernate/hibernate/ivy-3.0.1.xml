@@ -1,0 +1,10 @@
+<ivy-module version="1.0">
+	<info organisation="org.hibernate"
+		module="hibernate"
+		revision="3.0.1"
+		status="release"
+		publication="20050506180557"
+		resolver="ibiblio"
+		default="true"
+	/>
+</ivy-module>
